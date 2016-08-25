@@ -13,25 +13,20 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\win32">
-      <UniqueIdentifier>{61bd7b47-1fcd-4d6f-bcd3-a7f94f2b53c2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\include">
       <UniqueIdentifier>{5e2fa379-bf12-4ef6-9d41-e1d6442edd57}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\srclib">
       <UniqueIdentifier>{fa356d15-84ce-40c7-a883-a8359bc59c82}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\lib">
+      <UniqueIdentifier>{e4361e29-f533-4b67-9660-eaa863d313db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib">
+      <UniqueIdentifier>{61bd7b47-1fcd-4d6f-bcd3-a7f94f2b53c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\iconv.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\win32\config.h">
-      <Filter>Header Files\win32</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\include\iconv.h">
       <Filter>Header Files\include</Filter>
     </ClInclude>
@@ -41,5 +36,19 @@
     <ClInclude Include="..\..\srclib\uniwidth.h">
       <Filter>Header Files\srclib</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\srclib\localcharset.h">
+      <Filter>Header Files\srclib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\config.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\iconv.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\relocatable.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -24,10 +24,8 @@
 /* Get size_t.  */
 #include <stddef.h>
 
-#if 0
 /* Get locale_charset() declaration.  */
 #include "localcharset.h"
-#endif
 
 #ifdef __cplusplus
 extern "C" {

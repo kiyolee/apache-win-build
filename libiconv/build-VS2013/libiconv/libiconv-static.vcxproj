@@ -70,7 +70,7 @@
       <SDLCheck>true</SDLCheck>
       <StringPooling>true</StringPooling>
       <PreprocessorDefinitions>BUILDING_LIBICONV;LIBICONV_STATIC;NO_I18N;_CRT_SECURE_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\win32;..\..\include;..\..\srclib</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\lib;..\..\srclib</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -83,7 +83,7 @@
       <SDLCheck>true</SDLCheck>
       <StringPooling>true</StringPooling>
       <PreprocessorDefinitions>BUILDING_LIBICONV;LIBICONV_STATIC;NO_I18N;_CRT_SECURE_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\win32;..\..\include;..\..\srclib</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\lib;..\..\srclib</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -98,7 +98,7 @@
       <SDLCheck>true</SDLCheck>
       <StringPooling>true</StringPooling>
       <PreprocessorDefinitions>BUILDING_LIBICONV;LIBICONV_STATIC;NO_I18N;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\win32;..\..\include;..\..\srclib</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\lib;..\..\srclib</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -115,7 +115,7 @@
       <SDLCheck>true</SDLCheck>
       <StringPooling>true</StringPooling>
       <PreprocessorDefinitions>BUILDING_LIBICONV;LIBICONV_STATIC;NO_I18N;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\win32;..\..\include;..\..\srclib</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\lib;..\..\srclib</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -124,13 +124,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\iconv.c" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\..\include\iconv.h" />
+    <ClInclude Include="..\..\lib\config.h" />
+    <ClInclude Include="..\..\srclib\localcharset.h" />
     <ClInclude Include="..\..\srclib\unitypes.h" />
     <ClInclude Include="..\..\srclib\uniwidth.h" />
-    <ClInclude Include="..\..\win32\config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\iconv.c" />
+    <ClCompile Include="..\..\lib\relocatable.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
