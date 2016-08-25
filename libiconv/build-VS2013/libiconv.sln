@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libiconv", "libiconv\libiconv-static.vcxproj", "{46CAFE4A-B5BD-4422-ACC6-117D4AD041E2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iconv", "iconv\iconv.vcxproj", "{0F27FE31-A7DB-4CB2-9682-0B7869B47DED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,14 @@ Global
 		{46CAFE4A-B5BD-4422-ACC6-117D4AD041E2}.Release|Win32.Build.0 = Release|Win32
 		{46CAFE4A-B5BD-4422-ACC6-117D4AD041E2}.Release|x64.ActiveCfg = Release|x64
 		{46CAFE4A-B5BD-4422-ACC6-117D4AD041E2}.Release|x64.Build.0 = Release|x64
+		{0F27FE31-A7DB-4CB2-9682-0B7869B47DED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F27FE31-A7DB-4CB2-9682-0B7869B47DED}.Debug|Win32.Build.0 = Debug|Win32
+		{0F27FE31-A7DB-4CB2-9682-0B7869B47DED}.Debug|x64.ActiveCfg = Debug|x64
+		{0F27FE31-A7DB-4CB2-9682-0B7869B47DED}.Debug|x64.Build.0 = Debug|x64
+		{0F27FE31-A7DB-4CB2-9682-0B7869B47DED}.Release|Win32.ActiveCfg = Release|Win32
+		{0F27FE31-A7DB-4CB2-9682-0B7869B47DED}.Release|Win32.Build.0 = Release|Win32
+		{0F27FE31-A7DB-4CB2-9682-0B7869B47DED}.Release|x64.ActiveCfg = Release|x64
+		{0F27FE31-A7DB-4CB2-9682-0B7869B47DED}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
