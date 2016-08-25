@@ -1,4 +1,5 @@
 *.VC.db
+*.log
 *.opensdf
 *.sdf
 *~
