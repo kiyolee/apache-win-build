@@ -25,6 +25,12 @@
     <Filter Include="Header Files\lib">
       <UniqueIdentifier>{61bd7b47-1fcd-4d6f-bcd3-a7f94f2b53c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\libcharset">
+      <UniqueIdentifier>{eccbe0f3-2186-4a14-8ef4-5095ecc0d09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libcharset\lib">
+      <UniqueIdentifier>{6dd5d0e2-b781-4688-ae88-01c6a4f4e2fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\iconv.h">
@@ -49,6 +55,9 @@
     </ClCompile>
     <ClCompile Include="..\..\lib\relocatable.c">
       <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libcharset\lib\localcharset.c">
+      <Filter>Source Files\libcharset\lib</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

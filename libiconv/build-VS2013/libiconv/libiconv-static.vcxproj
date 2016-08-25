@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{46CAFE4A-B5BD-4422-ACC6-117D4AD041E2}</ProjectGuid>
     <RootNamespace>libiconv</RootNamespace>
-    <ProjectName>libiconv</ProjectName>
+    <ProjectName>libiconv-static</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -131,6 +131,7 @@
     <ClInclude Include="..\..\srclib\uniwidth.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\libcharset\lib\localcharset.c" />
     <ClCompile Include="..\..\lib\iconv.c" />
     <ClCompile Include="..\..\lib\relocatable.c" />
   </ItemGroup>
