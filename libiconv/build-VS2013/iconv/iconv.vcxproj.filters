@@ -25,12 +25,15 @@
     <Filter Include="Header Files\src">
       <UniqueIdentifier>{2b6b7222-c260-485b-9262-3b348bf962ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\srclib">
+      <UniqueIdentifier>{a5266bd6-38fe-460e-852a-abb124473036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\srclib\uniwidth">
+      <UniqueIdentifier>{cace9abe-ef1f-44ac-97b2-d3ef7214e61d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\iconv_no_i18n.c">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\iconv.c">
       <Filter>Source Files\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\srclib\progname.c">
@@ -42,10 +45,49 @@
     <ClCompile Include="..\..\srclib\uniwidth\width.c">
       <Filter>Source Files\srclib\uniwidth</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\iconv.c">
+      <Filter>Header Files\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\config.h">
       <Filter>Header Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\iconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\localcharset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\progname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib\relocatable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\safe-read.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\gettext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\uniwidth\cjk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\binary-io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\streq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\unitypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\uniwidth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\srclib\xalloc.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

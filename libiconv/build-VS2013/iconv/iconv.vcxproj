@@ -139,6 +139,18 @@
     <ClCompile Include="..\..\src\iconv_no_i18n.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\iconv.h" />
+    <ClInclude Include="..\..\lib\relocatable.h" />
+    <ClInclude Include="..\..\srclib\binary-io.h" />
+    <ClInclude Include="..\..\srclib\gettext.h" />
+    <ClInclude Include="..\..\srclib\localcharset.h" />
+    <ClInclude Include="..\..\srclib\progname.h" />
+    <ClInclude Include="..\..\srclib\safe-read.h" />
+    <ClInclude Include="..\..\srclib\streq.h" />
+    <ClInclude Include="..\..\srclib\unitypes.h" />
+    <ClInclude Include="..\..\srclib\uniwidth.h" />
+    <ClInclude Include="..\..\srclib\uniwidth\cjk.h" />
+    <ClInclude Include="..\..\srclib\xalloc.h" />
     <ClInclude Include="..\..\src\config.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
