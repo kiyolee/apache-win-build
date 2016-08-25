@@ -1,6 +1,10 @@
 [submodule "zlib"]
 	path = zlib
 	url = https://github.com/kiyolee/zlib-win-build
+	branch = master
+	ignore = dirty
 [submodule "libiconv"]
 	path = libiconv
 	url = https://github.com/kiyolee/libiconv-win-build
+	branch = master
+	ignore = dirty
