@@ -27,3 +27,7 @@ Apache projects to deal with later:
 The real deal:
 
     1. httpd
+
+The last straw:
+
+    1. nghttp2 (for HTTP/2 support)
