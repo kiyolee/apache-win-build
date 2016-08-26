@@ -12,11 +12,9 @@ Need to setup win-build for the following dependencies first:
 
     3. libxml2
 
-    4. libxslt
+    4. pcre
 
-    5. pcre
-
-    6. openssl
+    5. openssl
 
 Apache projects to deal with later:
 
