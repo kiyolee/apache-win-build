@@ -8,3 +8,8 @@
 	url = https://github.com/kiyolee/libiconv-win-build
 	branch = master
 	ignore = dirty
+[submodule "libxml2"]
+	path = libxml2
+	url = https://github.com/kiyolee/libxml2-win-build
+	branch = master
+	ignore = dirty

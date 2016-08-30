@@ -10,7 +10,7 @@ Need to setup win-build for the following dependencies first:
 
     2. libiconv [DONE - see libiconv-win-build]
 
-    3. libxml2
+    3. libxml2 [DONE - set libxml2-win-build]
 
     4. pcre
 
