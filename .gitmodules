@@ -14,7 +14,7 @@
 	branch = master
 	ignore = dirty
 [submodule "pcre-win-build"]
-	path = pcre-win-build
+	path = pcre
 	url = https://github.com/kiyolee/pcre-win-build.git
 	branch = master
 	ignore = dirty
