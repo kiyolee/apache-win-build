@@ -13,7 +13,7 @@
 	url = https://github.com/kiyolee/libxml2-win-build.git
 	branch = master
 	ignore = dirty
-[submodule "pcre-win-build"]
+[submodule "pcre"]
 	path = pcre
 	url = https://github.com/kiyolee/pcre-win-build.git
 	branch = master
