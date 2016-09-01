@@ -10,9 +10,9 @@ Need to setup win-build for the following dependencies first:
 
     2. libiconv [DONE - see libiconv-win-build]
 
-    3. libxml2 [DONE - set libxml2-win-build]
+    3. libxml2 [DONE - see libxml2-win-build]
 
-    4. pcre
+    4. pcre [DONE - see pcre-win-build]
 
     5. openssl
 

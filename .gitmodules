@@ -1,15 +1,20 @@
 [submodule "zlib"]
 	path = zlib
-	url = https://github.com/kiyolee/zlib-win-build
+	url = https://github.com/kiyolee/zlib-win-build.git
 	branch = master
 	ignore = dirty
 [submodule "libiconv"]
 	path = libiconv
-	url = https://github.com/kiyolee/libiconv-win-build
+	url = https://github.com/kiyolee/libiconv-win-build.git
 	branch = master
 	ignore = dirty
 [submodule "libxml2"]
 	path = libxml2
-	url = https://github.com/kiyolee/libxml2-win-build
+	url = https://github.com/kiyolee/libxml2-win-build.git
+	branch = master
+	ignore = dirty
+[submodule "pcre-win-build"]
+	path = pcre-win-build
+	url = https://github.com/kiyolee/pcre-win-build.git
 	branch = master
 	ignore = dirty
