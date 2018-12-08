@@ -18,3 +18,8 @@
 	url = https://github.com/kiyolee/pcre-win-build.git
 	branch = master
 	ignore = dirty
+[submodule "openssl"]
+	path = openssl
+	url = https://github.com/kiyolee/openssl1_1-win-build.git
+	branch = master
+	ignore = dirty
